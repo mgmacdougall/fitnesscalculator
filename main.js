@@ -38,10 +38,6 @@ function handleFormSubmit(event) {
   const gender = "male";
   const weight = document.getElementById("weight");
   const height = document.getElementById("heightCM");
-  // const heightInch = document.getElementById("height-in");
-  // const neckMeasure = document.getElementById("neck");
-  // const waistMeasure = document.getElementById("waist");
-  // const hipMeasure = document.getElementById("hips");
   const activitylevel = "level_1";
   const fitness = {age, gender, height, weight, activitylevel};
   fetchFitnessScore(fitness);
