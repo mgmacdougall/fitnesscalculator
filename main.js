@@ -18,7 +18,7 @@ function fetchFitnessScore(data) {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "ef06e7a069msh025c9e3833f9827p193ea9jsna8c2a39ee783",
+      "X-RapidAPI-Key": "",
       "X-RapidAPI-Host": "fitness-calculator.p.rapidapi.com"
     }
   };
