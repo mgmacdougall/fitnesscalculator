@@ -1,0 +1,162 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+ul {
+  list-style: none;
+}
+
+i {
+  font-size: 6.25rem !important;
+}
+
+p {
+  text-align: center;
+}
+
+.action-container {
+  display: flex;
+  flex-direction: column;
+  width: 15.6rem;
+}
+
+.action-container>div {
+  padding: 0.625rem;
+}
+
+.action-container:hover {
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px gray;
+}
+
+
+.med-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.med-container p {
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: bold;
+}
+
+li {
+  align-items: center;
+}
+
+.hero {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+}
+
+.hero p {
+  font-size: large;
+}
+
+#fitness-calculator {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1rem;
+}
+
+label {
+  text-align: center;
+  height: 2rem;
+  font-size: larger;
+  font-weight: bold;
+  padding-right: 0.65rem;
+}
+
+#calc-data {
+  height: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#calc-btn {
+  height: 2rem;
+  margin: 0;
+  width: 50vw;
+  border: none;
+  margin-top: 0.635rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 10 0;
+}
+
+
+#calc-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px gray;
+}
+
+.layout-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.layout-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.inline-sm {
+  width: 4rem;
+  height: auto;
+}
+
+.container-center {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+  width: 50%;
+  gap:10px;
+  
+}
+
+input{
+  height: 1.25rem;
+    padding-left: 0.5rem;
+    border-radius: 5px;
+}
+
+input:active{
+  box-shadow: 1px 2px solid gray;
+}
