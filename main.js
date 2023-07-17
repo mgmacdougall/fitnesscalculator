@@ -65,18 +65,6 @@ function renderSearchForm() {
       <div>
         <h3 style="text-align:center;">Enter measurements</h3>
         <div class="layout-col">
-            <div class="container-center">
-            <label for="neck">Neck</label>
-              <input  class="inline-sm" type="text" id="neck"></input>
-            </div>
-            <div class="container-center">
-              <label for="waist">Waist</label>
-              <input  class="inline-sm" type="text" id="waist"></input>
-            </div>
-            <div class="container-center">
-              <label for="hips">Hips</label>
-              <input class="inline-sm" type="text"  id="hips"></input>
-            </div>
           <input type="submit" id="calc-btn"></input>
       </div>
     </form>
@@ -90,5 +78,3 @@ function renderSearchForm() {
     handleFormSubmit(e);
   });
 }
-
-// searchButtonEl.addEventListener("click", function(e) {
